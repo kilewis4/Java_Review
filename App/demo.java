@@ -20,10 +20,12 @@ public class demo
                 if (choice.equals("1")){
                     addition myAddition = new addition();
                     System.out.println(myAddition.calculationMethod());
+                    userInput = true;
                 }
                 else if(choice.equals("2")){
                     multiplication myMultiplication = new multiplication();
                    System.out.println(myMultiplication.calculationMethod());
+                   userInput = true;
                 }else {
                     System.out.println("Bad input, try again");
                 } 
